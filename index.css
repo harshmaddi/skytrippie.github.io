@@ -115,3 +115,84 @@ header{
         margin-bottom: 12px;
     }
 }
+.postcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #d4c4a4;
+}
+.grid{
+    margin: 80px;
+    display: grid;
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.grid >article{
+    background: #f7f6f3;
+    border: none;
+    box-shadow: 2px 2px 6px 0px #7c5c44;
+    border-radius: 20px;
+    text-align: center;
+    color: #7c5c44;
+    width: 450px;
+    transition: transform .3s;
+}
+.grid >article:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 6px 0px #ac947c;
+
+}
+.grid >article img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    padding: 0 20px 20px;
+}
+.postButtons{
+    padding-top: 15px;
+    display: flex;
+    margin-right: 8px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    color: black;
+    font-size: larger;
+}
+.text .top{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text .top .userDetails{
+    display: flex;
+    align-items: center;
+}
+.text .top .userDetails .dp{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+    overflow: hidden;
+}
+.text .top .userDetails  h3{
+    font-size: 16px;
+    color: #7c5c44;
+    font-weight: 700;
+    line-height: 1rem;
+    cursor: pointer;
+}
+.text .top .userDetails span{
+    font-size: 0.75rem;
+}
+.message{
+    font-weight: 600;
+    margin-top: 5px;
+    line-height: 1.5rem;
+    text-align: left;
+}
