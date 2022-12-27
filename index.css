@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 .backgorund-image {
     background-image: url('./bg3.jpg');
     background-size: cover;
@@ -87,8 +88,8 @@ header{
         right: 0;
         width: 100vw;
         background: #e3d9b6;
-        transition: 0.6s;   
-        overflow: hidden;
+        transition: 0.5s;   
+        
     }
     .nav-bar.active{
         height: 350px;
@@ -108,6 +109,7 @@ header{
     }
     .nav-bar.active ul{
         opacity: 1;
+        overflow: auto;
     }
     .nav-bar ul li a{
         margin-bottom: 12px;
