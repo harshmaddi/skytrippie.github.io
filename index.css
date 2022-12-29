@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 .backgorund-image {
     background-image: url('./bg3.jpg');
     background-size: cover;
@@ -121,8 +120,11 @@ header{
     align-items: center;
     min-height: 100vh;
     background: #d4c4a4;
+    position: relative;
+
 }
 .grid{
+    position: relative;
     margin: 80px;
     display: grid;
     grid-gap: 30px;
@@ -131,6 +133,7 @@ header{
 
 }
 .grid >article{
+    position: relative;
     background: #f7f6f3;
     border: none;
     box-shadow: 2px 2px 6px 0px #7c5c44;
@@ -195,12 +198,4 @@ header{
     margin-top: 5px;
     line-height: 1.5rem;
     text-align: left;
-}
-@media (max-width:500px) {
-    .grid{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .grid > article{
-        text-align: center;
-    }
 }
